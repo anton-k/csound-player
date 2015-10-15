@@ -55,6 +55,8 @@ and aybe another one for drones.
     
 * add resume playback. When one file stops continue to play the next one
 
+* add installer (no need for python and friends to run)
+
 -------------------------------------------------------
 
 Happy Csounding!
