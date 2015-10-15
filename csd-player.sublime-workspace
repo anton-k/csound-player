@@ -1,0 +1,1152 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"key",
+				"keycode"
+			],
+			[
+				"WXK",
+				"WXK_LEFT"
+			],
+			[
+				"right",
+				"rightDownId"
+			],
+			[
+				"E",
+				"EVT_MENU"
+			],
+			[
+				"loa",
+				"loadFiles"
+			],
+			[
+				"c",
+				"csnd6"
+			],
+			[
+				"Play",
+				"PlayerUi"
+			],
+			[
+				"on",
+				"onColor"
+			],
+			[
+				"get",
+				"getCurrentTrack"
+			],
+			[
+				"play",
+				"player"
+			],
+			[
+				"Pla",
+				"PlayerUi"
+			],
+			[
+				"pl",
+				"Player"
+			],
+			[
+				"EVT_",
+				"EVT_BUTTON"
+			],
+			[
+				"I",
+				"ID_ANY"
+			],
+			[
+				"with",
+				"with"
+			],
+			[
+				"remo",
+				"remove_first"
+			],
+			[
+				"get_",
+				"get_sub_contour"
+			],
+			[
+				"in",
+				"in"
+			],
+			[
+				"rem",
+				"remove_last"
+			],
+			[
+				"within_",
+				"within_int_seg"
+			],
+			[
+				"sus",
+				"sustain_contour"
+			],
+			[
+				"cons",
+				"constant_contour"
+			],
+			[
+				"sust",
+				"sustain_gain_contour"
+			],
+			[
+				"sample",
+				"sample_rate"
+			],
+			[
+				"end",
+				"score_end_frame"
+			],
+			[
+				"sones",
+				"sones_of_amplitude_1kHz"
+			],
+			[
+				"amp",
+				"amplitude_of_sones_1kHz"
+			],
+			[
+				"am",
+				"amplitude_of_sones_1kHz"
+			],
+			[
+				"ampli",
+				"amplitude_of_db"
+			],
+			[
+				"freq",
+				"frequency_relation_by_pitch"
+			],
+			[
+				"tes",
+				"test_sco_1"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"arr",
+				"array_of_contour"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"get_sa",
+				"get_sample_names_uniq"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"sa",
+				"sample_features"
+			],
+			[
+				"sam_f",
+				"sample_filename"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"point",
+				"pointstring"
+			],
+			[
+				"to_",
+				"to_int"
+			],
+			[
+				"the",
+				"thecount"
+			],
+			[
+				"conto",
+				"contour"
+			],
+			[
+				"chan",
+				"change_seg"
+			],
+			[
+				"next_",
+				"next_last_frame"
+			],
+			[
+				"float",
+				"float_of_int"
+			],
+			[
+				"cur",
+				"current_seg"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"cono",
+				"contour"
+			],
+			[
+				"vol",
+				"volume_delta"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"con",
+				"contour"
+			],
+			[
+				"invert",
+				"invert_gain_contour"
+			],
+			[
+				"make_des",
+				"make_desired_volume"
+			],
+			[
+				"ra",
+				"rate_contour"
+			],
+			[
+				"note_",
+				"note_id"
+			],
+			[
+				"strc",
+				"string_contour"
+			],
+			[
+				"volu",
+				"volume_contour"
+			],
+			[
+				"sam",
+				"sample_id"
+			],
+			[
+				"Stri",
+				"StringVal"
+			],
+			[
+				"Str",
+				"StringRow"
+			],
+			[
+				"scss",
+				"sccss"
+			],
+			[
+				"row",
+				"row_types"
+			],
+			[
+				"featur",
+				"feature_id"
+			],
+			[
+				"sfi",
+				"sfile_id"
+			],
+			[
+				"floa",
+				"float_of_string"
+			],
+			[
+				"Co",
+				"Contours"
+			],
+			[
+				"db",
+				"db_filename"
+			],
+			[
+				"Sc",
+				"Score_player"
+			],
+			[
+				"instr",
+				"instrument"
+			],
+			[
+				"samp",
+				"sample_rate"
+			],
+			[
+				"ins",
+				"insert_contour_points"
+			],
+			[
+				"op",
+				"option_default"
+			],
+			[
+				"pit",
+				"pitch_contour"
+			],
+			[
+				"read_",
+				"read_volume_contour"
+			],
+			[
+				"soa",
+				"sound_atom"
+			],
+			[
+				"min",
+				"minitVal"
+			],
+			[
+				"ii",
+				"initVal"
+			],
+			[
+				"eT",
+				"evtTrigger"
+			],
+			[
+				"dryS",
+				"drySchedUntil"
+			],
+			[
+				"drySc",
+				"drySched"
+			],
+			[
+				"atS",
+				"atSco"
+			],
+			[
+				"ri",
+				"rimSpec"
+			],
+			[
+				"lC",
+				"lowConga"
+			],
+			[
+				"ho",
+				"highConga"
+			],
+			[
+				"hig",
+				"highTom"
+			],
+			[
+				"mi",
+				"midTom"
+			],
+			[
+				"ma",
+				"maracas"
+			],
+			[
+				"bong",
+				"bongo3"
+			],
+			[
+				"bon",
+				"bongo2"
+			],
+			[
+				"cy",
+				"cymbal2"
+			],
+			[
+				"choi",
+				"choirE"
+			],
+			[
+				"cho",
+				"choirO"
+			],
+			[
+				"acco",
+				"accordeonBright2"
+			],
+			[
+				"acc",
+				"accordeonBright"
+			],
+			[
+				"epi",
+				"epianoBright"
+			],
+			[
+				"mu",
+				"mutedPiano"
+			],
+			[
+				"wi",
+				"windPad"
+			],
+			[
+				"noB",
+				"noiseBellSpec"
+			],
+			[
+				"noi",
+				"noisyChoir"
+			],
+			[
+				"chA",
+				"choirA"
+			],
+			[
+				"hi",
+				"highConga"
+			],
+			[
+				"abo",
+				"abody2"
+			],
+			[
+				"afe",
+				"afeedbkRef"
+			],
+			[
+				"bass",
+				"bassClarinet"
+			],
+			[
+				"lrge",
+				"largeHall2"
+			],
+			[
+				"vib",
+				"vibraphone1Size"
+			],
+			[
+				"vibra",
+				"vibraphone1Size"
+			],
+			[
+				"P",
+				"Patch1"
+			],
+			[
+				"toRe",
+				"toRel"
+			],
+			[
+				"strik",
+				"strikeRelease"
+			],
+			[
+				"lar",
+				"largeHall2"
+			],
+			[
+				"strikeRe",
+				"strikeReverb"
+			],
+			[
+				"raz",
+				"razorPadSpeed"
+			],
+			[
+				"accordeon",
+				"accordeon"
+			],
+			[
+				"aF",
+				"accordeonFreq3"
+			],
+			[
+				"sm",
+				"smallHall2"
+			],
+			[
+				"pat",
+				"patchInstr"
+			],
+			[
+				"fmG",
+				"fmatrixGraph"
+			],
+			[
+				"fmI",
+				"fmatrixIndex"
+			],
+			[
+				"fmO",
+				"fmatrixOuts"
+			],
+			[
+				"Fm",
+				"Fmatrix"
+			],
+			[
+				"ren",
+				"renderGraph"
+			],
+			[
+				"mul",
+				"multiRndSE"
+			],
+			[
+				"mult",
+				"multiRnd"
+			],
+			[
+				"irv",
+				"irvts"
+			],
+			[
+				"form",
+				"formants"
+			],
+			[
+				"for",
+				"formants"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 6873,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kv.py",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix",
+				"name": "from kivy.app import App"
+			}
+		},
+		{
+			"file": "config.py",
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Player.py",
+			"settings":
+			{
+				"buffer_size": 3462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "PlayerUI.py",
+			"settings":
+			{
+				"buffer_size": 3476,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"PR",
+				"Package Control: Remove Package"
+			],
+			[
+				"PI",
+				"Package Control: Install Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/anton/osc2.orc",
+		"/home/anton/x/wx/main.py",
+		"/home/anton/x/wx/config.py",
+		"/home/anton/x/wx/main2.py",
+		"/home/anton/x/wx/Player.py",
+		"/home/anton/x/wx/PlayerUI.py",
+		"/home/anton/job/piano-core/OMakefile",
+		"/home/anton/job/piano-core/OMakeroot",
+		"/home/anton/job/piano-core/src_platform/piano_core_host.ml",
+		"/home/anton/job/Cartoon-Mobile/caml-score-player/test/test.ml",
+		"/home/anton/job/Cartoon-Mobile/caml-score-player/test/notes.ml",
+		"/home/anton/job/piano-core/Makefile",
+		"/home/anton/job/ocaml-inits/ocamlinit-1",
+		"/home/anton/job/piano-core/_build/src/.ocamlinit",
+		"/home/anton/job/Cartoon-Mobile/caml-score-player/src/Score_player.ml",
+		"/home/anton/dev/csound-expression/src/Csound/Air/Patch.hs",
+		"/home/anton/job/piano-core/src/score.ml",
+		"/home/anton/job/piano-core/src/piano_core_intf.ml",
+		"/home/anton/job/piano-core/src_bind/piano_core_bindings.ml",
+		"/home/anton/job/piano-core/.ocamlinit",
+		"/home/anton/job/Cartoon-Mobile/caml-score-player/Makefile",
+		"/home/anton/job/Cartoon-Mobile/Makefile",
+		"/home/anton/job/piano-core/src/piano_core.ml",
+		"/home/anton/music/csound-bits/pieces/jungle-1/tmp.csd",
+		"/home/anton/music/csound-bits/pieces/jungle-1/Main.hs",
+		"/home/anton/job/piano-core/myocamlbuild.ml",
+		"/home/anton/job/piano-core/src/test/test_parser_sql.ml",
+		"/home/anton/job/piano-core/diff.myocamlbuild",
+		"/home/anton/log.txt",
+		"/home/anton/books/music/virtual-sound/SubSyn.hs",
+		"/home/anton/Documents/score.ml",
+		"/home/anton/job/Cartoon-Mobile/CMakeFiles/CMakeOutput.log",
+		"/home/anton/job/Cartoon-Mobile/CMakeFiles/CMakeError.log",
+		"/home/anton/job/Cartoon-Mobile/CMakeLists.txt",
+		"/home/anton/job/piano-core/Makefile.config",
+		"/home/anton/job/Cartoon-Mobile/score-player/README.md",
+		"/home/anton/job/Cartoon-Mobile/CMakeCache.txt",
+		"/home/anton/dev/csound-expression/examples/scan.csd",
+		"/home/anton/music/csound-bits/pieces/sine-beats/A.hs",
+		"/home/anton/job/Cartoon-Mobile/juce/ReadMe.txt",
+		"/home/anton/job/Cartoon-Mobile/log.txt",
+		"/home/anton/music/csound-bits/pieces/sine-beats/tmp.csd",
+		"/home/anton/job/piano-core/src/piano-score.sublime-project",
+		"/home/anton/job/piano-core/src/ext/l1.ml",
+		"/home/anton/job/piano-core/src/ext/s1.ml",
+		"/home/anton/job/piano-core/src/ext/option.ml",
+		"/home/anton/job/piano-core/src/utils.sublime-project",
+		"/home/anton/job/piano-core/_build/myocamlbuild.ml",
+		"/home/anton/job/piano-core/_build/ocamlc.where",
+		"/home/anton/music/csound-bits/pieces/DarkSpace.hs",
+		"/home/anton/job/piano-core/src/tracks.ml",
+		"/home/anton/fpconf/tmp.csd",
+		"/home/anton/job/1/1.md",
+		"/home/anton/job/piano-core/src_test/test_piano_core.ml",
+		"/home/anton/music/csound-bits/patches/P.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Drum/MiniPops.hs",
+		"/home/anton/tmp.csd",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Wave/Thor.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Wave/Sean.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Wave/Flavio.hs",
+		"/home/anton/dev/csound-expression/src/Csound/Air/Live.hs",
+		"/home/anton/dev/csound-expression/src/Csound/Air.hs",
+		"/home/anton/dev/csound-expression/src/Csound/Air/Fx.hs",
+		"/home/anton/dev/csound-expression/csound-expression.cabal",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Drum/Tr808.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Drum/Hm.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Patch.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Drum.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Wave.hs",
+		"/home/anton/dev/csound-catalog/src/Csound/Catalog/Wave/Bitwig.hs",
+		"/home/anton/dev/csound-catalog/csound-catalog.cabal",
+		"/home/anton/num.txt",
+		"/home/anton/dev/csound-expression/src/Csound/Control/Midi.hs",
+		"/home/anton/dev/csound-expression/src/Csound/Control/Overload/MidiInstr.hs",
+		"/home/anton/music/csound-bits/patches/Thor.hs",
+		"/home/anton/music/csound-bits/patches/physmodl.orc",
+		"/home/anton/music/csound-bits/patches/multifx.orc",
+		"/home/anton/music/csound-bits/patches/physmodl.sco",
+		"/home/anton/dev/patches/hans-m/rezfiltr.orc",
+		"/home/anton/fpconf/Main.hs",
+		"/home/anton/example-1.c",
+		"/home/anton/dev/patches/hans-m/tb305.orc",
+		"/home/anton/dev/patches/hans-m/rezfiltr.sco",
+		"/home/anton/dev/patches/hans-m/tekbbl.orc",
+		"/home/anton/dev/patches/hans-m/spirogr.orc",
+		"/home/anton/dev/patches/hans-m/newage.orc",
+		"/home/anton/dev/patches/hans-m/valentine.sco",
+		"/home/anton/dev/patches/hans-m/gardverb.orc",
+		"/home/anton/dev/patches/hans-m/multifx.orc",
+		"/home/anton/dev/patches/hans-m/valentine.orc",
+		"/home/anton/dev/patches/hans-m/newage.sco",
+		"/home/anton/music/csound-bits/patches/Flavio.hs",
+		"/home/anton/music/csound-bits/patches/Patch.hs",
+		"/home/anton/music/names.txt",
+		"/home/anton/music/csound-bits/patches/tmp.csd",
+		"/home/anton/music/csound-bits/patches/P",
+		"/home/anton/music/hip-hop/tracks/Tam.hs",
+		"/home/anton/music/csound-bits/patches/Sean.hs",
+		"/media/anton/4072-8073/FpMain.hs",
+		"/home/anton/Wm.hs",
+		"/home/anton/Downloads/Wintermute_090815.csd",
+		"/home/anton/tools/reveal.js/index.html",
+		"/home/anton/Try.hs",
+		"/home/anton/tools/pdf-reveal.js/index.html",
+		"/home/anton/dev/promo/fpconf/slides-reveal/index.html",
+		"/home/anton/Documents/fp-code/ui.html",
+		"/home/anton/dev/patches/Thor.hs",
+		"/home/anton/dev/patches/Sean.hs",
+		"/home/anton/dev/csound-expression/src/Csound/Air/Granular.hs",
+		"/home/anton/dev/patches/tmp.csd",
+		"/home/anton/dev/patches/Drums.hs",
+		"/home/anton/dev/patches/Flavio.hs",
+		"/home/anton/dev/pure-csound/csound-instruments/costello/choir.orc",
+		"/home/anton/dev/pure-csound/csound-instruments/costello/stringphaser.orc",
+		"/home/anton/dev/pure-csound/csound-instruments/costello/otis.sco",
+		"/home/anton/dev/pure-csound/csound-instruments/costello/otis.orc",
+		"/home/anton/dev/pure-csound/csound-instruments/Makefile",
+		"/home/anton/dev/pure-csound/Make.hs",
+		"/home/anton/dev/pure-csound/csound-instruments/costello/gong.orc",
+		"/home/anton/dev/pure-csound/csound-instruments/costello/gong.sco",
+		"/home/anton/dev/pure-csound/csound-instruments/costello/choir.sco",
+		"/home/anton/dev/patches/Patch.hs",
+		"/home/anton/TR-808.csd",
+		"/home/anton/dev/gen-opcodes/src/Csound/Gen/Pretty.hs",
+		"/home/anton/dev/gen-opcodes/src/Csound/Gen/Parse.hs",
+		"/home/anton/Phaser1.csd",
+		"/home/anton/Phaser2.csd"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/anton/dev/csound-expression-typed/src",
+			"<project>",
+			"/home/anton/dev/csound-expression-typed",
+			"/home/anton/dev/csound-expression-typed/src",
+			"/home/anton/dev/csound-expression/src",
+			"/home/anton/dev/csound-expression-typed/src",
+			"/home/anton/dev/csound-expression-typed",
+			"/home/anton/dev/csound-expression-typed/src",
+			"/home/anton/dev/csound-expression"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"color",
+			"/",
+			"loadFile",
+			"panel",
+			"fit",
+			"panel",
+			"setplay",
+			"item",
+			"&&",
+			"playerU",
+			"onColo",
+			"curren",
+			"updateLa",
+			"initMenu",
+			"Config",
+			"output",
+			"out",
+			"output_",
+			"to_score",
+			"default_gain_contour",
+			"sustain_gain_contour",
+			">>>>",
+			"1.",
+			"0.5",
+			"within_int_seg",
+			"scale",
+			"default_ga",
+			"frequency_to_midi",
+			"berlin",
+			"metadata",
+			"metada",
+			"frequency_relation_by_pitch",
+			"invert_ga",
+			"rate_conto",
+			"get_rate_change_and_contour",
+			"rate_cont",
+			"shift_frames_by_rates",
+			"render_note_atom_chain",
+			"render_note",
+			"to_sound_score",
+			"filter_gain_outliers",
+			"empty",
+			"make_desired_vol",
+			"to_sound_score",
+			"render_note_atom",
+			"render_note_atom_chain",
+			"render_note_atom",
+			"render_note_atom_chain",
+			"to_sound_score",
+			"make_desi",
+			"invert_gai",
+			"audio_ana",
+			"filter_ra",
+			"render_note_atom_chain",
+			"make_note_atom",
+			"get_features",
+			"Sco",
+			"Lwt",
+			"lwt",
+			">>>>",
+			"<<<<",
+			">>>>",
+			"Sco",
+			"session_new",
+			"sessin_new",
+			"Str",
+			"Log.ign",
+			"to_sound_score",
+			"to_player_note_list",
+			"Log",
+			"L1",
+			"S1",
+			"main",
+			"sample_not_found",
+			"ind",
+			"join",
+			"dup",
+			"note_id",
+			"sample_features",
+			"todo",
+			">>>",
+			"score_pla",
+			"PlayGradingSeries",
+			"handle_grade",
+			">>>",
+			"ok",
+			">>",
+			"player",
+			"cartoon_mobile_path",
+			"score",
+			"score_pla",
+			"sequence",
+			"score_player",
+			"player",
+			">>>>",
+			"reset",
+			"reser",
+			"step",
+			"main",
+			"inse",
+			"all_filenames_for_root",
+			"process_file",
+			"Db.",
+			"make_empty_results",
+			"db.",
+			"featur",
+			"step",
+			"log",
+			"ign",
+			"log_response_code_and_error",
+			"prepare",
+			"sSQL",
+			"lofi",
+			"db.",
+			".db",
+			"db",
+			"contour",
+			"insert_feature_contour",
+			"insert",
+			"analysis",
+			"invert_gain_c",
+			"todo",
+			"invert_ra",
+			"invert_gai",
+			"within_seg",
+			"with",
+			"zip",
+			"map2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"note_atom",
+			"delaySig",
+			"FxFun",
+			"tabDelay",
+			"Hvs",
+			"SizeFFT",
+			"PitchSig",
+			"TempoSig",
+			"Overlap",
+			"midiAmpInstr",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 279.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "kv.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from kivy.app import App",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Player.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3067,
+								3067
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1683.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "PlayerUI.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1011,
+								1011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "csd-player.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/to"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/csound-expression.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 521.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
