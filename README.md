@@ -57,6 +57,11 @@ and aybe another one for drones.
 
 * add installer (no need for python and friends to run)
 
+* add stacks (the ability to play several tracks from the list
+   at the same time)
+
+* workspaces (we can save several lists with stacks)
+
 -------------------------------------------------------
 
 Happy Csounding!
