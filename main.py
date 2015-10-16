@@ -152,6 +152,8 @@ def initButtons(wnd, st):
         clbk = x[1]
         btn = wx.Button(wnd, label = name)
         btn.Bind(wx.EVT_BUTTON, clbk)
+        btn.SetForegroundColour(config.onColor)       
+        font.SetWeight(wx.FONTWEIGHT_BOLD)
         btn.SetFont(font)
         return btn
 
@@ -164,7 +166,7 @@ def initButtons(wnd, st):
     def onNext(e):
         st.getPlayer().next()
 
-    box = horSizer(map(button, [("Play", onPlay), ("<<", onPrev), (">>", onNext)]))    
+    box = horSizer(map(button, [(config.playSign, onPlay), (config.prevSign, onPrev), (config.nextSign, onNext)]))    
     return box
 
 def initItems(wnd, st):        
@@ -245,7 +247,7 @@ def setShortCuts(wnd, st):
 
 
 app = wx.App()
-wnd = wx.Frame(None, wx.ID_ANY, "Csound Player", size=(450, 90))
+wnd = wx.Frame(None, wx.ID_ANY, "Csound Player", size=(450, 90), style=wx.DEFAULT_FRAME_STYLE ^ wx.RESIZE_BORDER)
 st = St()
 initUI(wnd, st)
 

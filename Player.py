@@ -26,8 +26,12 @@ class CsdFile:
         else:
             engine.SetOption("-odac")
             engine.SetOption("-d")
-            engine.CompileOrc(open(self.orc, 'r').read())
-            engine.ReadScore(open(self.sco, 'r').read())
+            orc = open(self.orc, 'r')
+            sco = open(self.sco, 'r')
+            engine.CompileOrc(orc.read())
+            engine.ReadScore(sco.read())
+            orc.close()
+            sco.close()
             engine.Start()
 
     def __str__(self):

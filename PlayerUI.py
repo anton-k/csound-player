@@ -26,12 +26,12 @@ class PlayerUI:
             self.play()        
 
     def play(self):
-        self.toggleButton.SetLabel("||")
+        self.toggleButton.SetLabel(config.stopSign)
         self.player.play()
         
 
     def stop(self):
-        self.toggleButton.SetLabel("Play")
+        self.toggleButton.SetLabel(config.playSign)
         self.player.stop()        
     
     def next(self):
