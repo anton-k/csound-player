@@ -41,7 +41,7 @@ Also it can be used to create predefined synths for someone who doesn't know Cso
 
 Note that several instances can be launched at the same time.
 You can use one playlist for midi instruments, another one for beats
-and aybe another one for drones.
+and maybe another one for drones.
 
 ### todo
 
