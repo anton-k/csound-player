@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import config
 import wx
 from wx.lib.scrolledpanel import ScrolledPanel
@@ -246,15 +247,19 @@ def setShortCuts(wnd, st):
     wnd.SetFocus()
 
 
-app = wx.App()
-wnd = wx.Frame(None, wx.ID_ANY, "Csound Player", size=(450, 90), style=wx.DEFAULT_FRAME_STYLE ^ wx.RESIZE_BORDER)
-st = St()
-initUI(wnd, st)
+def main():
+    app = wx.App()
+    wnd = wx.Frame(None, wx.ID_ANY, "Csound Player", size=(450, 90), style=wx.DEFAULT_FRAME_STYLE ^ wx.RESIZE_BORDER)
+    st = St()
+    initUI(wnd, st)
 
-lastDir = st.getLastDir()
-if lastDir != '':
-    st.getPlayer().loadFiles(wnd, lastDir)
+    lastDir = st.getLastDir()
+    if lastDir != '':
+        st.getPlayer().loadFiles(wnd, lastDir)
 
-wnd.Centre()
-wnd.Show(True)
-app.MainLoop()
+    wnd.Centre()
+    wnd.Show(True)
+    app.MainLoop()
+
+if __name__ == "__main__":
+    main()
