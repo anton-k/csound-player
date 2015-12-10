@@ -8,7 +8,7 @@ from PlayerUI import PlayerUI
 
 class St:
     def __init__(self):
-        self.cfg = wx.Config('myconfig')
+        self.cfg = wx.Config('csound-player-myconfig')
 
     def setPlayer(self, sizer, mainSizer, panel, btn):
         self.player = PlayerUI(sizer, mainSizer, panel, btn)
