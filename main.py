@@ -1,8 +1,7 @@
 #!/usr/bin/python
 import config
-import wx
+import sys, os, glob, wx
 from wx.lib.scrolledpanel import ScrolledPanel
-import glob
 
 from PlayerUI import PlayerUI
 
@@ -17,11 +16,21 @@ class St:
         return self.player
 
     def getLastDir(self):
-        return unicode(self.cfg.Read('last_dir', ''))
-        
+        path = read_last_dir_from_arg()
+        if path:
+            return unicode(path)
+        else:
+            return unicode(self.cfg.Read('last_dir', ''))
+
     def setLastDir(self, path):
         self.cfg.Write('last_dir', str(path))
 
+def read_last_dir_from_arg():
+    if len(sys.argv) > 1:
+        path = sys.argv[1]
+        if os.path.exists(path):
+            return path
+    return None
 
 def menuItem(wnd, menu, id, title, msg, action, font):
     item = wx.MenuItem(menu, id, title, msg)
@@ -52,7 +61,7 @@ def setAccelerators(wnd, st):
         st.getPlayer().toggle()
 
     def onNum(i):
-        def res(e):            
+        def res(e):
             st.getPlayer().goTo(i)
         return res
 
@@ -92,7 +101,7 @@ def initMenu(wnd, st):
     def onLoad(e):
         dialog = wx.DirDialog(None, "Choose a directory:",style=wx.DD_DEFAULT_STYLE | wx.DD_NEW_DIR_BUTTON, defaultPath = st.getLastDir())
         if dialog.ShowModal() == wx.ID_OK:
-            path = dialog.GetPath() 
+            path = dialog.GetPath()
             st.setLastDir(path)
             st.getPlayer().loadFiles(wnd, path)
         dialog.Destroy()
@@ -100,13 +109,13 @@ def initMenu(wnd, st):
     def onPreferences(e):
         pass
 
-    def onAbout(e):    
+    def onAbout(e):
         description = """Csound Player is a simple player for Csound files.
 It can play csd and sco/orc files. It loads all files in the given directory
 and creates a playlist out of csound files.
 """
 
-        licence = """Csound Player is free software; you can redistribute 
+        licence = """Csound Player is free software; you can redistribute
 it and/or modify it under the terms of the BSD License."""
 
         info = wx.AboutDialogInfo()
@@ -134,16 +143,16 @@ it and/or modify it under the terms of the BSD License."""
     menubar.Append(loadMenu, '&File')
     wnd.SetMenuBar(menubar)
 
-    menuItem(wnd, loadMenu, wx.ID_ANY, '&Load', 'Load files', onLoad, font)    
-    menuItem(wnd, loadMenu, wx.ID_ANY, '&Preferences', 'Settings', onPreferences, font)        
-    menuItem(wnd, loadMenu, wx.ID_EXIT, '&Quit', 'Quit application', onQuit, font)   
+    menuItem(wnd, loadMenu, wx.ID_ANY, '&Load', 'Load files', onLoad, font)
+    menuItem(wnd, loadMenu, wx.ID_ANY, '&Preferences', 'Settings', onPreferences, font)
+    menuItem(wnd, loadMenu, wx.ID_EXIT, '&Quit', 'Quit application', onQuit, font)
 
     aboutMenu = wx.Menu()
-    menubar.Append(aboutMenu, '&Help') 
-    menuItem(wnd, aboutMenu, wx.ID_ANY, '&About', 'About', onAbout, font)   
+    menubar.Append(aboutMenu, '&Help')
+    menuItem(wnd, aboutMenu, wx.ID_ANY, '&About', 'About', onAbout, font)
 
     setAccelerators(wnd, st)
-    
+
 def initButtons(wnd, st):
     font = wx.SystemSettings_GetFont(wx.SYS_SYSTEM_FONT)
     font.SetPointSize(config.fontSize)
@@ -153,7 +162,7 @@ def initButtons(wnd, st):
         clbk = x[1]
         btn = wx.Button(wnd, label = name)
         btn.Bind(wx.EVT_BUTTON, clbk)
-        btn.SetForegroundColour(config.onColor)       
+        btn.SetForegroundColour(config.onColor)
         font.SetWeight(wx.FONTWEIGHT_BOLD)
         btn.SetFont(font)
         return btn
@@ -167,25 +176,25 @@ def initButtons(wnd, st):
     def onNext(e):
         st.getPlayer().next()
 
-    box = horSizer(map(button, [(config.playSign, onPlay), (config.prevSign, onPrev), (config.nextSign, onNext)]))    
+    box = horSizer(map(button, [(config.playSign, onPlay), (config.prevSign, onPrev), (config.nextSign, onNext)]))
     return box
 
-def initItems(wnd, st):        
-    return verSizer([])        
+def initItems(wnd, st):
+    return verSizer([])
 
 def initMainSizer(wnd, st, btns, items):
-    sizer = wx.BoxSizer(wx.VERTICAL)    
+    sizer = wx.BoxSizer(wx.VERTICAL)
     sizer.Add(btns, 0, wx.EXPAND)
     sizer.AddSpacer(10)
 
-    panel = wx.Panel(wnd, -1)     
+    panel = wx.Panel(wnd, -1)
     panel.SetBackgroundColour(config.bkgColor)
     panel.SetSizer(items)
 
     setShortCuts(panel, st)
 
-    sizer.Add(panel, 0, wx.EXPAND)  
-    toggleButton = btns.GetItem(0).GetWindow()  
+    sizer.Add(panel, 0, wx.EXPAND)
+    toggleButton = btns.GetItem(0).GetWindow()
     st.setPlayer(items, sizer, panel, toggleButton)
     wnd.SetSizer(sizer)
 
@@ -197,15 +206,15 @@ def initContent(wnd, st):
 def initExit(wnd, st):
     def onExit(e):
         st.getPlayer().quit()
-        wnd.Destroy()        
+        wnd.Destroy()
 
-    wnd.Bind(wx.EVT_CLOSE, onExit) 
+    wnd.Bind(wx.EVT_CLOSE, onExit)
 
-def initUI(wnd, st):    
+def initUI(wnd, st):
     initMenu(wnd, st)
-    initContent(wnd, st)   
+    initContent(wnd, st)
     initExit(wnd, st)
-    
+
 
 def keyNum(keycode, st):
     if keycode == ord('1'):
@@ -240,12 +249,11 @@ def setShortCuts(wnd, st):
             st.getPlayer().next()
         elif keycode == wx.WXK_SPACE:
             st.getPlayer().toggle()
-        else:            
+        else:
             keyNum(keycode, st)
 
     wnd.Bind(wx.EVT_KEY_DOWN, onKeyPress)
     wnd.SetFocus()
-
 
 def main():
     app = wx.App()

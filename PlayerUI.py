@@ -14,31 +14,31 @@ def rmStar(x):
 class PlayerUI:
     def __init__(self, sizer, mainSizer, panel, btn):
         self.sizer = sizer
-        self.mainSizer = mainSizer        
+        self.mainSizer = mainSizer
         self.panel = panel
         self.player = Player([])
-        self.toggleButton = btn      
+        self.toggleButton = btn
 
     def toggle(self):
         if self.player.isOn():
             self.stop()
         else:
-            self.play()        
+            self.play()
 
     def play(self):
         self.toggleButton.SetLabel(config.stopSign)
         self.player.play()
-        
+
 
     def stop(self):
         self.toggleButton.SetLabel(config.playSign)
-        self.player.stop()        
-    
+        self.player.stop()
+
     def next(self):
         self.unHighlightTrack()
         self.player.next()
         self.highlightTrack()
-    
+
     def prev(self):
         self.unHighlightTrack()
         self.player.prev()
@@ -55,10 +55,10 @@ class PlayerUI:
     def loadFiles(self, wnd, directory):
         files = readFiles(directory)
 
-        self.player.stop()        
+        self.player.stop()
         self.player = Player(files)
-        
-        def onItemClick(i):              
+
+        def onItemClick(i):
             def res(e):
                 if not(i == self.player.currentTrack and self.isOn()):
                     self.unHighlightTrack()
@@ -66,14 +66,14 @@ class PlayerUI:
                     self.highlightTrack()
             return res
 
-        def onItemDoubleClick(i): 
+        def onItemDoubleClick(i):
             n = i
-            def res(e):                  
+            def res(e):
                 if i == self.player.currentTrack and self.isOn():
                     self.stop()
                 else:
                     onItemClick(n)(e)
-                    self.play()                
+                    self.play()
             return res
 
         self.sizer.Clear(deleteWindows = True)
@@ -85,7 +85,7 @@ class PlayerUI:
             item.Bind(wx.EVT_LEFT_DOWN, onItemClick(ind))
             item.Bind(wx.EVT_LEFT_DCLICK, onItemDoubleClick(ind))
             item.SetSize(wx.Size(200, 80))
-            item.SetFont(font)            
+            item.SetFont(font)
             self.sizer.Add(item, 0, wx.ALL|wx.EXPAND, 5)
 
         self.highlightTrack()
@@ -96,8 +96,8 @@ class PlayerUI:
         self.mainSizer.Layout()
         self.mainSizer.Fit(wnd)
 
-    def unHighlightTrack(self):   
-        color = config.offColor     
+    def unHighlightTrack(self):
+        color = config.offColor
         n = self.player.getCurrentTrack()
         item = self.sizer.GetItem(n)
         if not(item is None) and item.IsWindow():
@@ -105,12 +105,12 @@ class PlayerUI:
             rmStar(item.GetWindow())
             item.GetWindow().SetWindowStyle(wx.ALIGN_LEFT)
 
-    def highlightTrack(self):        
+    def highlightTrack(self):
         color = config.onColor
         n = self.player.getCurrentTrack()
         item = self.sizer.GetItem(n)
         if not(item is None) and item.IsWindow():
-            item.GetWindow().SetForegroundColour(color)            
+            item.GetWindow().SetForegroundColour(color)
             addStar(item.GetWindow())
             item.GetWindow().SetWindowStyle(wx.ALIGN_RIGHT)
 

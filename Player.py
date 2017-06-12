@@ -19,7 +19,7 @@ class CsdFile:
         else:
             pass
 
-    def loadToEngine(self, engine):        
+    def loadToEngine(self, engine):
         if self.isCsd:
             engine.Compile(unicode2string(self.csd))
             engine.Start()
@@ -63,7 +63,7 @@ def readFiles(directory):
         x1 = map(stripExt, x)
         x2 = map(stripExt, y)
         common = list(set(x1).intersection(x2))
-        return map(lambda a: CsdFile((a + ".orc", a + ".sco")), common)        
+        return map(lambda a: CsdFile((a + ".orc", a + ".sco")), common)
 
     csds = byExt(directory, "csd")
     orcs = byExt(directory, "orc")
@@ -87,10 +87,10 @@ class Player:
         return res
 
     @skipOnEmpty
-    def play(self):  
+    def play(self):
         if not(self.on):
             self.on = True
-            print ("Play " + str(self.currentTrack))            
+            print ("Play " + str(self.currentTrack))
             self.files[self.currentTrack].loadToEngine(self.engine)
             try:
                 self.audioThread = csnd6.CsoundPerformanceThread(self.engine)
@@ -98,16 +98,16 @@ class Player:
             except:
                 self.stop()
 
-        
+
     @skipOnEmpty
-    def stop(self):   
-        if (self.on):     
+    def stop(self):
+        if (self.on):
             self.on = False
-            print ("Stop " + str(self.currentTrack))        
+            print ("Stop " + str(self.currentTrack))
             self.audioThread.Stop()
-            self.audioThread.Join()    
+            self.audioThread.Join()
             self.engine.Cleanup()
-            self.engine.Reset()   
+            self.engine.Reset()
 
     def quit(self):
         if (self.on):
@@ -123,7 +123,7 @@ class Player:
         self.goTo(self.currentTrack + n)
 
     @skipOnEmpty
-    def goTo(self, n):           
+    def goTo(self, n):
         def nextTrackId():
             self.currentTrack = (n) % self.length
 
